@@ -3,27 +3,18 @@ import {
   TileLayer,
   Marker,
   Popup,
-  useMap,
   GeoJSON,
-  Polygon,
 } from "react-leaflet";
 import { useState } from "react";
-import * as L from "leaflet";
 import "./App.css";
-import teslaData from "./data/tesla-sites.json";
-import geoData from "./data/geo.json";
-
 function App() {
   const [files, setFiles] = useState("");
 
   const handleChange = (e) => {
     const fileReader = new FileReader();
-    //   fileReader.onloadend = ()=>{
-    //     setFiles(JSON.parse(fileReader.result));
-    //  }
+    
     fileReader.readAsText(e.target.files[0], "UTF-8");
     fileReader.onload = (e) => {
-      //console.log("e.target.result", e.target.result);
       setFiles(JSON.parse(e.target.result));
     };
   };
@@ -73,16 +64,8 @@ function App() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {/* <GeoJSON data = {geoData}/> */}
         {features.map((feature) => (
-          // (feature.geometry.type == "Polygon" || feature.geometry.type == "MultiPolygon")?
-          // <Polygon color='blue' positions={
-          //   feature.geometry.coordinates.map((list) => {
-          //     return list.map(item => [item[1], item[0]]);
-          //   })
-          // }/>
-          // :
-
+          
           <Marker
             position={[feature.properties.label_y, feature.properties.label_x]}
           >
