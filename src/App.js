@@ -5,6 +5,7 @@ import {
   Popup,
   useMap,
   GeoJSON,
+  Polygon,
 } from "react-leaflet";
 import { useState } from "react";
 import * as L from "leaflet";
@@ -30,7 +31,7 @@ function App() {
   const clickHandler = (e) => {
     let h2 = document.getElementById(e.target.id);
     let h2Text = h2.innerText.substring(11);
-    h2.innerHTML = "<input type='text' id='input' value='"+h2Text+"'/>";
+    h2.innerHTML = "<input type='text' id='input' value='" + h2Text + "'/>";
     let input = document.getElementById("input");
     input.focus();
 
@@ -39,13 +40,13 @@ function App() {
       h2.textContent = newText;
       h2.innerHTML = newText;
     });
-    input.addEventListener("keypress", function(e) {
-      if(e.key === 'Enter'){
+    input.addEventListener("keypress", function (e) {
+      if (e.key === "Enter") {
         let newText = "Subregion: " + input.value;
         h2.textContent = newText;
         h2.innerHTML = newText;
       }
-    })
+    });
   };
 
   if (files === "") {
@@ -74,26 +75,36 @@ function App() {
         />
         {/* <GeoJSON data = {geoData}/> */}
         {features.map((feature) => (
+          // (feature.geometry.type == "Polygon" || feature.geometry.type == "MultiPolygon")?
+          // <Polygon color='blue' positions={
+          //   feature.geometry.coordinates.map((list) => {
+          //     return list.map(item => [item[1], item[0]]);
+          //   })
+          // }/>
+          // :
+
           <Marker
             position={[feature.properties.label_y, feature.properties.label_x]}
           >
-            <Popup
-              position={[
-                feature.properties.label_y,
-                feature.properties.label_x,
-              ]}
-            >
-              <div>
-                <h2
-                  id={feature.properties.pop_rank}
-                  onDoubleClick={clickHandler}
-                >
-                  {"Subregion: " + feature.properties.subregion}
-                </h2>
-                <p>{"Continent :" + feature.properties.continent}</p>
-                <p>{"Name: " + feature.properties.name}</p>
-              </div>
-            </Popup>
+            <GeoJSON key={feature.properties.id} data={feature}>
+              <Popup
+                position={[
+                  feature.properties.label_y,
+                  feature.properties.label_x,
+                ]}
+              >
+                <div>
+                  <h2
+                    id={feature.properties.pop_rank}
+                    onDoubleClick={clickHandler}
+                  >
+                    {"Subregion: " + feature.properties.subregion}
+                  </h2>
+                  <p>{"Continent: " + feature.properties.continent}</p>
+                  <p>{"Name: " + feature.properties.name}</p>
+                </div>
+              </Popup>
+            </GeoJSON>
           </Marker>
         ))}
       </MapContainer>

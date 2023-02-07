@@ -1,0 +1,666 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "featurecla": "Admin-0 country",
+          "scalerank": 1,
+          "labelrank": 5,
+          "sovereignt": "Nicaragua",
+          "sov_a3": "NIC",
+          "adm0_dif": 0,
+          "level": 2,
+          "type": "Sovereign country",
+          "tlc": "1",
+          "admin": "Nicaragua",
+          "adm0_a3": "NIC",
+          "geou_dif": 0,
+          "geounit": "Nicaragua",
+          "gu_a3": "NIC",
+          "su_dif": 0,
+          "subunit": "Nicaragua",
+          "su_a3": "NIC",
+          "brk_diff": 0,
+          "name": "Nicaragua",
+          "name_long": "Nicaragua",
+          "brk_a3": "NIC",
+          "brk_name": "Nicaragua",
+          "brk_group": null,
+          "abbrev": "Nic.",
+          "postal": "NI",
+          "formal_en": "Republic of Nicaragua",
+          "formal_fr": null,
+          "name_ciawf": "Nicaragua",
+          "note_adm0": null,
+          "note_brk": null,
+          "name_sort": "Nicaragua",
+          "name_alt": null,
+          "mapcolor7": 1,
+          "mapcolor8": 4,
+          "mapcolor9": 1,
+          "mapcolor13": 9,
+          "pop_est": 6545502,
+          "pop_rank": 13,
+          "pop_year": 2019,
+          "gdp_md": 12520,
+          "gdp_year": 2019,
+          "economy": "6. Developing region",
+          "income_grp": "4. Lower middle income",
+          "fips_10": "NU",
+          "iso_a2": "NI",
+          "iso_a2_eh": "NI",
+          "iso_a3": "NIC",
+          "iso_a3_eh": "NIC",
+          "iso_n3": "558",
+          "iso_n3_eh": "558",
+          "un_a3": "558",
+          "wb_a2": "NI",
+          "wb_a3": "NIC",
+          "woe_id": 23424915,
+          "woe_id_eh": 23424915,
+          "woe_note": "Exact WOE match as country",
+          "adm0_iso": "NIC",
+          "adm0_diff": null,
+          "adm0_tlc": "NIC",
+          "adm0_a3_us": "NIC",
+          "adm0_a3_fr": "NIC",
+          "adm0_a3_ru": "NIC",
+          "adm0_a3_es": "NIC",
+          "adm0_a3_cn": "NIC",
+          "adm0_a3_tw": "NIC",
+          "adm0_a3_in": "NIC",
+          "adm0_a3_np": "NIC",
+          "adm0_a3_pk": "NIC",
+          "adm0_a3_de": "NIC",
+          "adm0_a3_gb": "NIC",
+          "adm0_a3_br": "NIC",
+          "adm0_a3_il": "NIC",
+          "adm0_a3_ps": "NIC",
+          "adm0_a3_sa": "NIC",
+          "adm0_a3_eg": "NIC",
+          "adm0_a3_ma": "NIC",
+          "adm0_a3_pt": "NIC",
+          "adm0_a3_ar": "NIC",
+          "adm0_a3_jp": "NIC",
+          "adm0_a3_ko": "NIC",
+          "adm0_a3_vn": "NIC",
+          "adm0_a3_tr": "NIC",
+          "adm0_a3_id": "NIC",
+          "adm0_a3_pl": "NIC",
+          "adm0_a3_gr": "NIC",
+          "adm0_a3_it": "NIC",
+          "adm0_a3_nl": "NIC",
+          "adm0_a3_se": "NIC",
+          "adm0_a3_bd": "NIC",
+          "adm0_a3_ua": "NIC",
+          "adm0_a3_un": -99,
+          "adm0_a3_wb": -99,
+          "continent": "North America",
+          "region_un": "Americas",
+          "subregion": "Central America",
+          "region_wb": "Latin America & Caribbean",
+          "name_len": 9,
+          "long_len": 9,
+          "abbrev_len": 4,
+          "tiny": -99,
+          "homepart": 1,
+          "min_zoom": 0,
+          "min_label": 4,
+          "max_label": 9,
+          "label_x": -85.069347,
+          "label_y": 12.670697,
+          "ne_id": 1159321091,
+          "wikidataid": "Q811",
+          "name_ar": "نيكاراغوا",
+          "name_bn": "নিকারাগুয়া",
+          "name_de": "Nicaragua",
+          "name_en": "Nicaragua",
+          "name_es": "Nicaragua",
+          "name_fa": "نیکاراگوئه",
+          "name_fr": "Nicaragua",
+          "name_el": "Νικαράγουα",
+          "name_he": "ניקרגואה",
+          "name_hi": "निकारागुआ",
+          "name_hu": "Nicaragua",
+          "name_id": "Nikaragua",
+          "name_it": "Nicaragua",
+          "name_ja": "ニカラグア",
+          "name_ko": "니카라과",
+          "name_nl": "Nicaragua",
+          "name_pl": "Nikaragua",
+          "name_pt": "Nicarágua",
+          "name_ru": "Никарагуа",
+          "name_sv": "Nicaragua",
+          "name_tr": "Nikaragua",
+          "name_uk": "Нікарагуа",
+          "name_ur": "نکاراگوا",
+          "name_vi": "Nicaragua",
+          "name_zh": "尼加拉瓜",
+          "name_zht": "尼加拉瓜",
+          "fclass_iso": "Admin-0 country",
+          "tlc_diff": null,
+          "fclass_tlc": "Admin-0 country",
+          "fclass_us": null,
+          "fclass_fr": null,
+          "fclass_ru": null,
+          "fclass_es": null,
+          "fclass_cn": null,
+          "fclass_tw": null,
+          "fclass_in": null,
+          "fclass_np": null,
+          "fclass_pk": null,
+          "fclass_de": null,
+          "fclass_gb": null,
+          "fclass_br": null,
+          "fclass_il": null,
+          "fclass_ps": null,
+          "fclass_sa": null,
+          "fclass_eg": null,
+          "fclass_ma": null,
+          "fclass_pt": null,
+          "fclass_ar": null,
+          "fclass_jp": null,
+          "fclass_ko": null,
+          "fclass_vn": null,
+          "fclass_tr": null,
+          "fclass_id": null,
+          "fclass_pl": null,
+          "fclass_gr": null,
+          "fclass_it": null,
+          "fclass_nl": null,
+          "fclass_se": null,
+          "fclass_bd": null,
+          "fclass_ua": null,
+          "filename": "NIC.geojson"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.65561174186158,
+                10.938764146361422
+              ],
+              [
+                -83.80893571647155,
+                11.103043524617275
+              ],
+              [
+                -83.8554703437504,
+                11.373311265503787
+              ],
+              [
+                -83.65085751009072,
+                11.62903209070012
+              ],
+              [
+                -83.71961300325506,
+                11.893124497927728
+              ],
+              [
+                -83.62610449902292,
+                12.320850328007566
+              ],
+              [
+                -83.47332312695198,
+                12.419087225794428
+              ],
+              [
+                -83.49851538769427,
+                12.869292303921227
+              ],
+              [
+                -83.55220720084554,
+                13.127054348193086
+              ],
+              [
+                -83.51983191601468,
+                13.567699286345883
+              ],
+              [
+                -83.41249996614445,
+                13.970077826386557
+              ],
+              [
+                -83.18212643098728,
+                14.31070302983845
+              ],
+              [
+                -83.2841615465476,
+                14.6766238468972
+              ],
+              [
+                -83.23323442252394,
+                14.899866034398102
+              ],
+              [
+                -83.14721900097413,
+                14.99582916916411
+              ],
+              [
+                -83.48998877636612,
+                15.016267198135537
+              ],
+              [
+                -83.62858496777292,
+                14.880073960830302
+              ],
+              [
+                -83.97572140169359,
+                14.749435939996488
+              ],
+              [
+                -84.22834164095241,
+                14.74876414637663
+              ],
+              [
+                -84.4493359036486,
+                14.621614284722511
+              ],
+              [
+                -84.64958207877964,
+                14.666805324761867
+              ],
+              [
+                -84.82003679069436,
+                14.81958669683267
+              ],
+              [
+                -84.9245006985724,
+                14.79049286545235
+              ],
+              [
+                -85.05278744173694,
+                14.551541042534723
+              ],
+              [
+                -85.14875057650296,
+                14.560196844943617
+              ],
+              [
+                -85.16536454948482,
+                14.354369615125051
+              ],
+              [
+                -85.51441301140028,
+                14.079011745657908
+              ],
+              [
+                -85.69866533073696,
+                13.960078436738002
+              ],
+              [
+                -85.80129472526859,
+                13.83605499923759
+              ],
+              [
+                -86.09626380079061,
+                14.038187364147234
+              ],
+              [
+                -86.31214209668993,
+                13.77135610600817
+              ],
+              [
+                -86.52070817741992,
+                13.778487453664468
+              ],
+              [
+                -86.75508663607971,
+                13.754845485890913
+              ],
+              [
+                -86.7338217841916,
+                13.263092556201443
+              ],
+              [
+                -86.88055701368438,
+                13.254204209847217
+              ],
+              [
+                -87.00576900912758,
+                13.025794379117158
+              ],
+              [
+                -87.31665442579549,
+                12.984685777228975
+              ],
+              [
+                -87.39238623731923,
+                12.914018256069838
+              ],
+              [
+                -87.55746660027562,
+                13.064551703336065
+              ],
+              [
+                -87.66849341505471,
+                12.909909979702633
+              ],
+              [
+                -87.16751624220116,
+                12.458257961471658
+              ],
+              [
+                -86.74599158399633,
+                12.143961900272487
+              ],
+              [
+                -86.52584998243296,
+                11.806876532432597
+              ],
+              [
+                -86.05848832878526,
+                11.403438625529944
+              ],
+              [
+                -85.7125404528073,
+                11.088444932494824
+              ],
+              [
+                -85.5618519762442,
+                11.217119248901597
+              ],
+              [
+                -84.90300330273895,
+                10.952303371621896
+              ],
+              [
+                -84.67306901725627,
+                11.082657172078143
+              ],
+              [
+                -84.35593075228104,
+                10.999225572142905
+              ],
+              [
+                -84.19017859570485,
+                10.793450018756674
+              ],
+              [
+                -83.89505449088595,
+                10.726839097532446
+              ],
+              [
+                -83.65561174186158,
+                10.938764146361422
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "featurecla": "Admin-0 country",
+          "scalerank": 1,
+          "labelrank": 6,
+          "sovereignt": "El Salvador",
+          "sov_a3": "SLV",
+          "adm0_dif": 0,
+          "level": 2,
+          "type": "Sovereign country",
+          "tlc": "1",
+          "admin": "El Salvador",
+          "adm0_a3": "SLV",
+          "geou_dif": 0,
+          "geounit": "El Salvador",
+          "gu_a3": "SLV",
+          "su_dif": 0,
+          "subunit": "El Salvador",
+          "su_a3": "SLV",
+          "brk_diff": 0,
+          "name": "El Salvador",
+          "name_long": "El Salvador",
+          "brk_a3": "SLV",
+          "brk_name": "El Salvador",
+          "brk_group": null,
+          "abbrev": "El. S.",
+          "postal": "SV",
+          "formal_en": "Republic of El Salvador",
+          "formal_fr": null,
+          "name_ciawf": "El Salvador",
+          "note_adm0": null,
+          "note_brk": null,
+          "name_sort": "El Salvador",
+          "name_alt": null,
+          "mapcolor7": 1,
+          "mapcolor8": 4,
+          "mapcolor9": 6,
+          "mapcolor13": 8,
+          "pop_est": 6453553,
+          "pop_rank": 13,
+          "pop_year": 2019,
+          "gdp_md": 27022,
+          "gdp_year": 2019,
+          "economy": "6. Developing region",
+          "income_grp": "4. Lower middle income",
+          "fips_10": "ES",
+          "iso_a2": "SV",
+          "iso_a2_eh": "SV",
+          "iso_a3": "SLV",
+          "iso_a3_eh": "SLV",
+          "iso_n3": "222",
+          "iso_n3_eh": "222",
+          "un_a3": "222",
+          "wb_a2": "SV",
+          "wb_a3": "SLV",
+          "woe_id": 23424807,
+          "woe_id_eh": 23424807,
+          "woe_note": "Exact WOE match as country",
+          "adm0_iso": "SLV",
+          "adm0_diff": null,
+          "adm0_tlc": "SLV",
+          "adm0_a3_us": "SLV",
+          "adm0_a3_fr": "SLV",
+          "adm0_a3_ru": "SLV",
+          "adm0_a3_es": "SLV",
+          "adm0_a3_cn": "SLV",
+          "adm0_a3_tw": "SLV",
+          "adm0_a3_in": "SLV",
+          "adm0_a3_np": "SLV",
+          "adm0_a3_pk": "SLV",
+          "adm0_a3_de": "SLV",
+          "adm0_a3_gb": "SLV",
+          "adm0_a3_br": "SLV",
+          "adm0_a3_il": "SLV",
+          "adm0_a3_ps": "SLV",
+          "adm0_a3_sa": "SLV",
+          "adm0_a3_eg": "SLV",
+          "adm0_a3_ma": "SLV",
+          "adm0_a3_pt": "SLV",
+          "adm0_a3_ar": "SLV",
+          "adm0_a3_jp": "SLV",
+          "adm0_a3_ko": "SLV",
+          "adm0_a3_vn": "SLV",
+          "adm0_a3_tr": "SLV",
+          "adm0_a3_id": "SLV",
+          "adm0_a3_pl": "SLV",
+          "adm0_a3_gr": "SLV",
+          "adm0_a3_it": "SLV",
+          "adm0_a3_nl": "SLV",
+          "adm0_a3_se": "SLV",
+          "adm0_a3_bd": "SLV",
+          "adm0_a3_ua": "SLV",
+          "adm0_a3_un": -99,
+          "adm0_a3_wb": -99,
+          "continent": "North America",
+          "region_un": "Americas",
+          "subregion": "Central America",
+          "region_wb": "Latin America & Caribbean",
+          "name_len": 11,
+          "long_len": 11,
+          "abbrev_len": 6,
+          "tiny": -99,
+          "homepart": 1,
+          "min_zoom": 0,
+          "min_label": 5,
+          "max_label": 10,
+          "label_x": -88.890124,
+          "label_y": 13.685371,
+          "ne_id": 1159321253,
+          "wikidataid": "Q792",
+          "name_ar": "السلفادور",
+          "name_bn": "এল সালভাদোর",
+          "name_de": "El Salvador",
+          "name_en": "El Salvador",
+          "name_es": "El Salvador",
+          "name_fa": "السالوادور",
+          "name_fr": "Salvador",
+          "name_el": "Ελ Σαλβαδόρ",
+          "name_he": "אל סלוודור",
+          "name_hi": "अल साल्वाडोर",
+          "name_hu": "Salvador",
+          "name_id": "El Salvador",
+          "name_it": "El Salvador",
+          "name_ja": "エルサルバドル",
+          "name_ko": "엘살바도르",
+          "name_nl": "El Salvador",
+          "name_pl": "Salwador",
+          "name_pt": "El Salvador",
+          "name_ru": "Сальвадор",
+          "name_sv": "El Salvador",
+          "name_tr": "El Salvador",
+          "name_uk": "Сальвадор",
+          "name_ur": "ایل سیلواڈور",
+          "name_vi": "El Salvador",
+          "name_zh": "萨尔瓦多",
+          "name_zht": "薩爾瓦多",
+          "fclass_iso": "Admin-0 country",
+          "tlc_diff": null,
+          "fclass_tlc": "Admin-0 country",
+          "fclass_us": null,
+          "fclass_fr": null,
+          "fclass_ru": null,
+          "fclass_es": null,
+          "fclass_cn": null,
+          "fclass_tw": null,
+          "fclass_in": null,
+          "fclass_np": null,
+          "fclass_pk": null,
+          "fclass_de": null,
+          "fclass_gb": null,
+          "fclass_br": null,
+          "fclass_il": null,
+          "fclass_ps": null,
+          "fclass_sa": null,
+          "fclass_eg": null,
+          "fclass_ma": null,
+          "fclass_pt": null,
+          "fclass_ar": null,
+          "fclass_jp": null,
+          "fclass_ko": null,
+          "fclass_vn": null,
+          "fclass_tr": null,
+          "fclass_id": null,
+          "fclass_pl": null,
+          "fclass_gr": null,
+          "fclass_it": null,
+          "fclass_nl": null,
+          "fclass_se": null,
+          "fclass_bd": null,
+          "fclass_ua": null,
+          "filename": "SLV.geojson"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -89.35332597528281,
+                14.424132798719086
+              ],
+              [
+                -89.58734269891656,
+                14.36258616785949
+              ],
+              [
+                -89.53421932652051,
+                14.244815578666305
+              ],
+              [
+                -89.72193396682073,
+                14.134228013561696
+              ],
+              [
+                -90.0646779039966,
+                13.881969509328925
+              ],
+              [
+                -90.09555457229098,
+                13.735337632700734
+              ],
+              [
+                -89.81239356154767,
+                13.520622056527998
+              ],
+              [
+                -89.2567427233293,
+                13.458532823129303
+              ],
+              [
+                -88.84322791212972,
+                13.259733588102478
+              ],
+              [
+                -88.48330156121682,
+                13.163951320849492
+              ],
+              [
+                -87.90411210808952,
+                13.149016831917137
+              ],
+              [
+                -87.79311113152657,
+                13.384480495655055
+              ],
+              [
+                -87.7235029772294,
+                13.785050360565506
+              ],
+              [
+                -87.85951534702161,
+                13.893312486217098
+              ],
+              [
+                -88.06534257684014,
+                13.964625962779778
+              ],
+              [
+                -88.50399797234971,
+                13.845485948130857
+              ],
+              [
+                -88.541230841816,
+                13.980154730683479
+              ],
+              [
+                -88.84307288283284,
+                14.14050670008517
+              ],
+              [
+                -89.05851192905766,
+                14.340029405164087
+              ],
+              [
+                -89.35332597528281,
+                14.424132798719086
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "coordinates": [
+            -84.71344106668998,
+            13.761011123544336
+          ],
+          "type": "Point"
+        }
+      }
+    ]
+  }
